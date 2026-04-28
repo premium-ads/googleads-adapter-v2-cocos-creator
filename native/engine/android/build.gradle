@@ -1,0 +1,23 @@
+// Cocos Creator Android build template — merged into the generated
+// Android Studio project at build time. Adds the PremiumAds adapter v2,
+// the JFrog repo it ships from, and the Google Mobile Ads SDK.
+//
+// AdMob app id is injected as a manifestPlaceholder so the
+// AndroidManifest.xml meta-data tag resolves it at build time.
+
+android {
+    defaultConfig {
+        manifestPlaceholders = [
+            ADMOB_APP_ID: '<your admob app id>'
+        ]
+    }
+}
+
+repositories {
+    maven { url 'https://repo.premiumads.net/artifactory/mobile-ads-sdk/' }
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-ads:23.6.0'
+    implementation 'net.premiumads.sdk:admob-adapter-v2:1.0.9'
+}

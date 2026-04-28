@@ -1,0 +1,24 @@
+{
+  "android": {
+    "packageName": "net.premiumads.cocoscreator.sample",
+    "appName": "PremiumAdsAdapterSample",
+    "useDebugKeystore": true,
+    "orientation": {
+      "portrait": true,
+      "landscapeLeft": false,
+      "landscapeRight": false
+    },
+    "apiLevel": 34,
+    "appBundle": false
+  },
+  "ios": {
+    "packageName": "net.premiumads.cocoscreator.sample",
+    "appName": "PremiumAdsAdapterSample",
+    "orientation": {
+      "portrait": true,
+      "landscapeLeft": false,
+      "landscapeRight": false
+    },
+    "targetIOSVersion": "13.0"
+  }
+}

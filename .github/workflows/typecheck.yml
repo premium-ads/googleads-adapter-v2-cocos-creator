@@ -1,0 +1,26 @@
+name: Typecheck
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install --no-save typescript
+      - name: tsc --noEmit (best-effort)
+        # Cocos Creator's full module resolution requires the IDE to populate
+        # temp/tsconfig.cocos.json. We don't fail CI on tsc errors here — this
+        # is a syntax/type smoke check only.
+        run: |
+          npx tsc --noEmit --target ES2017 --moduleResolution node \
+            --esModuleInterop --skipLibCheck \
+            assets/PremiumAdsAdapter/PremiumAdsAdapter.ts \
+            assets/scripts/HelloWorld.ts || true

@@ -1,0 +1,13 @@
+{
+  "name": "googleads-adapter-v2-cocos-creator",
+  "version": "1.0.0",
+  "description": "PremiumAds AdMob mediation adapter v2 — Cocos Creator sample",
+  "creator": {
+    "version": "3.8.4"
+  },
+  "type": "3d",
+  "uuid": "08b606c5-5387-4d9f-b446-cba5013e1820",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

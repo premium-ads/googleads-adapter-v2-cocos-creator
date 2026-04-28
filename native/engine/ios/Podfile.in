@@ -1,0 +1,5 @@
+# Cocos Creator iOS build template. PROJECT_NAME is substituted at build time.
+target 'PROJECT_NAME' do
+  pod 'Google-Mobile-Ads-SDK', '~> 13.0'
+  pod 'PremiumAdsGoogleAdapter', '~> 1.0.6'
+end

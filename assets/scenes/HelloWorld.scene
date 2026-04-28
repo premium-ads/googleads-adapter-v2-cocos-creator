@@ -1,0 +1,20 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "HelloWorld",
+    "_objFlags": 0,
+    "_native": "",
+    "scene": { "__id__": 1 }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_name": "HelloWorld",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_id": ""
+  }
+]
