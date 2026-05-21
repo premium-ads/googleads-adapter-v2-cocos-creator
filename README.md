@@ -75,9 +75,9 @@ Each is currently set to `<your admob ad unit>` / `<your admob app id>` placehol
 
 ## Adapter coordinates
 
-- **Android:** `net.premiumads.sdk:admob-adapter-v2:1.0.9`
+- **Android:** `net.premiumads.sdk:admob-adapter-v2:1.0.10`
   (JFrog `https://repo.premiumads.net/artifactory/mobile-ads-sdk/`)
-- **iOS:** `pod 'PremiumAdsGoogleAdapter', '~> 1.0.6'` (CocoaPods trunk)
+- **iOS:** `pod 'PremiumAdsGoogleAdapter', '~> 1.0.8'` (CocoaPods trunk)
 - **GMA:** `play-services-ads:23.6.0` (Android), `Google-Mobile-Ads-SDK ~> 13.0` (iOS)
 
 ## License
